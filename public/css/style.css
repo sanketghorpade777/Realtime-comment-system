@@ -1,0 +1,30 @@
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+h1{
+    text-align: center;
+}
+
+.comment{
+  animation: something .6s ease forwards;
+  
+}
+
+@keyframes something {
+  0% {
+    transform: translateY(-25px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+}
